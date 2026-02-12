@@ -37,3 +37,6 @@ This project allows users to manage student records including adding, updating, 
 ✅ Maven
 
 # Screenshots
+<img width="1919" height="967" alt="Screenshot 2026-02-12 152902" src="https://github.com/user-attachments/assets/59f55562-f5da-4c69-ad41-b19ebba30dc7" />
+
+
