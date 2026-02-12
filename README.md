@@ -4,12 +4,19 @@ This project allows users to manage student records including adding, updating, 
 
 # Features
 ✅ Add new students
+
 ✅ Update student details
+
 ✅ Delete student records
+
 ✅ Search students by keyword
+
 ✅ Pagination
+
 ✅ Upload student photo
+
 ✅ Download student data as csv
+
 ✅ Login & Logout(Spring Security)
 
 # Tech Stack
