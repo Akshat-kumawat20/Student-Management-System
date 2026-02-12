@@ -35,3 +35,5 @@ This project allows users to manage student records including adding, updating, 
 ✅ HTML/CSS
 
 ✅ Maven
+
+# Screenshots
