@@ -21,10 +21,17 @@ This project allows users to manage student records including adding, updating, 
 
 # Tech Stack
 ✅ Java
+
 ✅ Spring Boot
+
 ✅ Spring MVC
+
 ✅ Thymeleaf
+
 ✅ Spring data JPA
+
 ✅ MySQL
+
 ✅ HTML/CSS
+
 ✅ Maven
