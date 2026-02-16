@@ -38,6 +38,7 @@ This project allows users to manage student records including adding, updating, 
 
 # Screenshots
 <img width="1919" height="968" alt="Screenshot 2026-02-16 170741" src="https://github.com/user-attachments/assets/4f30d1d5-ea82-4384-8034-82b2a0d5c5d1" />
+
 <img width="1919" height="967" alt="Screenshot 2026-02-12 152902" src="https://github.com/user-attachments/assets/b1d17d79-3823-4467-a3c6-4b720e87da45" />
 
 
