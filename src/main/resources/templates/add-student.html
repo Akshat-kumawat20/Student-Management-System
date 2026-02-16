@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Student</title>
+	<link rel="stylesheet" th:href="@{/css/style.css}">
+
+    <script>
+        function validateForm() {
+
+            let firstName = document.getElementById("firstName").value.trim();
+            let lastName  = document.getElementById("lastName").value.trim();
+            let email     = document.getElementById("email").value.trim();
+            let phoneNo    = document.getElementById("phoneNo").value.trim();
+			let photo = document.getElementById("photo").value;
+
+            if (firstName === "") {
+                alert("First Name is required");
+                return false;
+            }
+
+            if (lastName === "") {
+                alert("Last Name is required");
+                return false;
+            }
+
+            if (email === "") {
+                alert("Email is required");
+                return false;
+            }
+
+            if (phoneNo === "") {
+                alert("Phone Number is required");
+                return false;
+            }
+			
+			if(photo === "") {
+				alert("Student Photo is required");
+				return false;
+			}
+
+            return true; // allow submit
+        }
+		
+		window.onload = function () {
+
+		       const requiredFields = [
+		           { label: "First Name", inputId: "firstName" },
+		           { label: "Last Name", inputId: "lastName" },
+		           { label: "Email", inputId: "email" },
+		           { label: "Phone No", inputId: "phoneNo" },
+				   { label: "Student Photo", inputId: "photo"}
+		       ];
+
+		       requiredFields.forEach(field => {
+		           const input = document.getElementById(field.inputId);
+		           const label = input.previousElementSibling;
+
+		           const star = document.createElement("span");
+		           star.innerText = " *";
+		           star.style.color = "red";
+		           star.style.fontWeight = "bold";
+
+		           label.appendChild(star);
+		       });
+		   };
+    </script>
+</head>
+
+<body>
+	<div class="container">
+
+<h2>Add Student</h2>
+
+<form action="/students/save"
+      method="post"
+	  enctype="multipart/form-data"
+      onsubmit="return validateForm()">
+	  
+	  <!--CSRF Token --> 
+	  	  <input type="hidden" 
+	  	  th:name="${_csrf.parameterName}" 
+	  	  th:value="${_csrf.token}">
+
+    <label>First Name:</label>
+    <input type="text" id="firstName" name="firstName">
+    <br><br>
+
+    <label>Last Name:</label>
+    <input type="text" id="lastName" name="lastName">
+    <br><br>
+
+    <label>Email:</label>
+    <input type="email" id="email" name="email">
+    <br><br>
+
+    <label>Phone No:</label>
+    <input type="text" id="phoneNo" name="phoneNo">
+    <br><br>
+	
+	<label>Student Photo:</label>
+	<input type="file" id="photo" name="imageFile" accept="image/*">
+	<br><br>
+
+    <button type="submit">Save</button>
+</form>
+</div>
+
+</body>
+</html>

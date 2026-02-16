@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Edit Student</title>
+	<link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+	<div class="container"></div>
+
+<h2>Edit Student</h2>
+
+<form th:action="@{/students/update}"
+      th:object="${student}"
+      method="post"
+	  enctype="multipart/form-data">
+
+    <!-- Hidden ID (DO NOT REMOVE) -->
+    <input type="hidden" th:field="*{id}" />
+
+    <label>First Name:</label>
+	<input type="text" th:field="*{firstName}" />
+	<br><br>
+	
+	<label>Last Name:</label>
+	<input type="text" th:field="*{lastName}" />
+	<br><br>
+	
+	<label>Phone No:</label>
+		    <input type="text" th:field="*{phoneNo}" />
+		    <br><br>
+
+    <label>Email:</label>
+    <input type="text" th:field="*{email}" />
+    <br><br>
+	
+	<div th:if="${student.photo != null}">
+		<p>Current Photo:</p>
+		<img th:src="@{'/images/' + ${student.photo}}"
+		width="120" height="120">
+	</div>
+	
+	<div>
+	    <label>Student Photo:</label>
+	    <input type="file" name="imageFile" accept="image/*">
+	</div>
+
+    <button type="submit">Update</button>
+
+</form>
+
+<br>
+<a href="/students" class="btn back-btn">Back to Student List</a>
+
+</body>
+</html>
