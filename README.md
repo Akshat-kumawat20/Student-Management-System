@@ -15,7 +15,7 @@ This project allows users to manage student records including adding, updating, 
 
 ✅ Upload student photo
 
-✅ Download student data as csv
+✅ Download student data as CSV
 
 ✅ Login & Logout(Spring Security)
 
