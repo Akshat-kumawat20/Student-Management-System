@@ -1,3 +1,8 @@
+![Java](https://img.shields.io/badge/Java-17-blue)
+![Spring Boot](https://img.shields.io/badge/SpringBoot-3.x-green)
+![Coverage](https://img.shields.io/badge/Coverage-93%25-brightgreen)
+
+
 # Student-Management-System
 A full-featured Student Management System web application built using Spring Boot, Thymeleaf and MySQL.
 This project allows users to manage student records including adding, updating, deleting, searching and pagination. Moreover it demonstrates CRUD operations,CSV export, image upload, and authentication using Spring Security.
