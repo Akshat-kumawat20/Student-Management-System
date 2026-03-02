@@ -41,5 +41,20 @@ This project allows users to manage student records including adding, updating, 
 
 <img width="1919" height="967" alt="Screenshot 2026-02-12 152902" src="https://github.com/user-attachments/assets/b1d17d79-3823-4467-a3c6-4b720e87da45" />
 
+# Code Coverage
+Coverage generated using JaCoCo.
+
+| Metric               | Coverage |
+| -------------------- | -------- |
+| Instruction Coverage | 93%      |
+| Branch Coverage      | 78%      |
+| Methods Covered      | 37       |
+| Classes Covered      | 6        |
+
+
+
+
+
+
 
 
