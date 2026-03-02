@@ -51,6 +51,21 @@ Coverage generated using JaCoCo.
 | Methods Covered      | 37       |
 | Classes Covered      | 6        |
 
+# Generating Reports
+Run Unit Tests
+mvn clean test
+
+Generate Code Coverage Report
+mvn jacoco:report
+
+Open in browser:
+target/site/jacoco/index.html
+
+Generate Test Report (Surefire)
+mvn surefire-report:report
+
+Open:
+target/site/surefire-report.html
 
 
 
