@@ -51,8 +51,8 @@ Coverage generated using JaCoCo.
 
 | Metric               | Coverage |
 | -------------------- | -------- |
-| Instruction Coverage | 93%      |
-| Branch Coverage      | 78%      |
+| Instruction Coverage | 100%      |
+| Branch Coverage      | 100%      |
 | Methods Covered      | 37       |
 | Classes Covered      | 6        |
 
