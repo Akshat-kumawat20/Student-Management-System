@@ -8,23 +8,22 @@ A full-featured Student Management System web application built using Spring Boo
 This project allows users to manage student records including adding, updating, deleting, searching and pagination. Moreover it demonstrates CRUD operations,CSV export, image upload, and authentication using Spring Security.
 
 # Features
-✅ Automatic User Registration
+✅ Automatic User Registration (Stored in MySQL)
 
-✅ Add new students
+✅ Google OAuth2 Login (Spring Security)
 
-✅ Update student details
+✅ Add, Update, Delete Students
 
-✅ Delete student records
+✅ Search Students (Name, Email, Phone)
 
-✅ Search students by keyword
+✅ Pagination for large datasets
 
-✅ Pagination
+✅ Upload and update student photos
 
-✅ Upload student photo
+✅ Export student data as CSV
 
-✅ Download student data as CSV
+✅ MySQL database integration
 
-✅ Login & Logout(Spring Security)
 
 # Tech Stack
 ✅ Java
