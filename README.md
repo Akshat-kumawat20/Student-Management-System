@@ -8,6 +8,8 @@ A full-featured Student Management System web application built using Spring Boo
 This project allows users to manage student records including adding, updating, deleting, searching and pagination. Moreover it demonstrates CRUD operations,CSV export, image upload, and authentication using Spring Security.
 
 # Features
+✅ Automatic User Registration
+
 ✅ Add new students
 
 ✅ Update student details
@@ -51,6 +53,12 @@ Coverage generated using JaCoCo.
 | Branch Coverage      | 100%      |
 | Methods Covered      | 37       |
 | Classes Covered      | 6        |
+
+# Future Improvements
+
+✅ Role-based access control
+
+✅ Dashboard analytics
 
 # Screenshots
 <img width="1919" height="968" alt="Screenshot 2026-02-16 170741" src="https://github.com/user-attachments/assets/4f30d1d5-ea82-4384-8034-82b2a0d5c5d1" />
